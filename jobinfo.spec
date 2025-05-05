@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ["C:/Users/809561/OneDrive - Land O'Lakes, Inc/Documents/GitHub/vtask/GetJobLog/jobinfo_lol.py"],
+    ["C:/Users/809561/OneDrive - Land O'Lakes, Inc/Documents/GitHub/vtask/GetJobLog/jobinfo_watchlistupdate.py"],
     pathex=[],
     binaries=[],
     datas=[("C:/Users/809561/OneDrive - Land O'Lakes, Inc/Documents/GitHub/vtask/GetJobLog/LandOLakes.png", '.')],
@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['C:\\Users\\809561\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win10toast\\data\\python.ico'],
 )
