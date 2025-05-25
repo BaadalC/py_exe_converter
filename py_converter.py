@@ -128,7 +128,7 @@ def main():
     console = input("Keep the console window open? (y/n): ").lower() == 'y'
 
     # 6. Construct the PyInstaller command
-    command = create_pyinstaller_command(script_path, onefile, not console, icon_path, additional_files, executable_name)
+    command = create_pyinstaller_command(script_path, onefile, console, icon_path, additional_files, executable_name)
 
     # 7. Run PyInstaller
     run_pyinstaller_command(command)
